@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-scale, initial-scale=1.0">
+	<title>Pujon Das</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(window).on('scroll', function(){
+			if($(window).scrollTop()){
+				$('nav').addClass('black');
+			}
+			else{
+				$('nav').removeClass('black');
+			}
+		});
+	</script>
+
+</head>
+<body>
+
+	<header id="header">
+		<div class="wrapper">
+			<nav>
+			 	<div class="logo">PUJON<!-- <a href="#top">PUJON</a> --></div>
+			 	<input type="checkbox" name="" id="check">
+			 	<label for="check" class="show-nav-btn">
+			 		<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+			 	</label>
+			 		<ul class="menu">
+						<li><a href="#top">HOME</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#services">SERVICES</a></li>
+						<li><a href="#portfolio">PORTFOLIO</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+						<label for="check" class="hide-nav-btn">
+							<i class="fa fa-times" aria-hidden="true"></i>
+						</label>
+					</ul>
+					<div class="menu-main-btn">
+						<span></span>
+						<span style="top: 16px;"></span>
+						<span style="top: 23px;"></span>
+					</div>
+			</nav>
+		</div>
+	</header>
+	<section class="banner fix">
+		<div id="particles-js"></div>
+		<div class="wrapper">
+			<div id="wrap">
+            	<div id="text"></div>
+            </div>
+            <div class="social">
+            	<ul class="wow fadeInLeft">
+                    <li><a href="https://facebook.com/pujon.das.4th" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/@pujon_das2" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://linkedin.com/www.linkedin.com/in/pujon-das-225377187/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://instagram.com/adittya_pujon" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <a href="#about">
+            	<div class="scrolldown">
+            		<span></span>
+            		<span></span>
+            		<span></span>
+            	</div>
+            </a>
+		</div>
+	</section>
+
+	<section id="about" class="fix text-center">
+		<div class="container">
+				<h2 class="wow zoomIn">About Me</h2>
+			<div class="row">
+				<div class="col-md-6 wow fadeInDown">
+
+					<img src="images/1.jpg"><!-- 
+					<a href="#contact" class="rdm-btn"><span>Hire Me</span></a> -->
+					
+					<div class="about-content">
+						<h3>A Piece Of Information...</h3>
+						<p>I'm Pujon Das. I'm a Web Designer and I have experience on Photoshop too. I am hardworking and Creative. It is time for to get something different from me.</p>
+						<a href="#contact" class="rdm-btn"><span>Hire Me</span></a>
+					</div>
+					<!----<button type="button" class="btn btn-outline-secondary">Read More</button>---->
+				</div>
+				<div class="col-md-6 skills-bar wow fadeInUp">
+					<h3>My Skills</h3>
+					<p>HTML 5</p>
+					<div class="progress">
+  					<div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">85%</div>
+					</div>
+					<p>CSS 3</p>
+					<div class="progress">
+					<div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0"aria-valuemax="100">90%</div>
+					</div>
+					<p>Bootstrap</p>
+					<div class="progress">
+					<div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0"aria-valuemax="100">50%</div>
+					</div>
+					<p>PSD To HTML</p>
+					<div class="progress">
+  					<div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80%</div>
+					</div>
+					<p>Photoshop</p>
+					<div class="progress">
+  					<div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">70%</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!------Services------>
+	<section id="services" class="fix">
+		<div class="container text-center">
+			<h2 class="wow zoomIn">What I Do</h2>
+			<div class="row services">
+				<div class="col-md-4 text-center wow fadeInDown">
+					<div class="icon">
+						<i class="fa fa-desktop"></i>
+					</div>
+					<h3>Web Design</h3>
+					<p>Qualified web designs and attractive effects with cool animation which catches visitor's Eye.</p>
+				</div>
+				<div class="col-md-4 text-center wow flipInX">
+					<div class="icon">
+						<i class="fa fa-tablet"></i>
+					</div>
+					<h3>Responsive Design</h3>
+					<p>Responsive Design which will be working almost all browsers and screens, Mobile, TaB, PC etc.</p>
+				</div>
+				<div class="col-md-4 text-center wow fadeInDown">
+					<div class="icon">
+						<i class="fa fa-code"></i>
+					</div>
+					<h3>PSD To HTML</h3>
+					<p>Make a HTML file from PSD file with cool animation which catches visitor's Eye.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!----Portfolio---->
+	<section id="portfolio" class="fix">
+		<div class="mp-heading text-center wow zoomIn">
+			<h2>My Portfolio</h2>
+		</div>
+		<div class="container">
+		<div class="mp-details pdlr-50">
+			<div class="row pd-20">
+				<div class="col-md-6 col-lg-4 pd-0 wow fadeInLeft" id="mpsAnmOne">
+					<div class="mpd-img-box">
+						<div class="mpd-image">
+							<img src="images/desktop.png">
+							<div class="mpd-overlay"><!-- 
+								<h2>Personal Website</h2> -->
+								<a href="images/desktop.png" data-lightbox="mpGallery" data-title="Personal Website"><span my-font="" class="clickToView"> Full Screen View </span></a><a href="https://drive.google.com/file/d/1_9LMIzO5BLs-3j7fnHxNGMPtJDRT4VxK/view?usp=sharing" target="_blank" class="mpi-download"><i class="fas fa-cloud-download-alt"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 pd-0 wow fadeInDown" id="mpsAnmTwo">
+					<div class="mpd-img-box">
+						<div class="mpd-image">
+							<img src="images/desktop1.png">
+							<div class="mpd-overlay"><!-- 
+								<h2>One Product Page</h2> -->
+								<a href="images/desktop1.png" data-lightbox="mpGallery" data-title="One Product Page"><span my-font="" class="clickToView"> Full Screen View </span></a><a href="https://drive.google.com/file/d/1EoQhxXBL4sNRVVptQvfLmEk8-WGAi9rm/view?usp=sharing" target="_blank" class="mpi-download"><i class="fas fa-cloud-download-alt"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-4 pd-0 wow fadeInRight" id="mpsAnmThree">
+					<div class="mpd-img-box">
+						<div class="mpd-image">
+							<img src="images/tinyone.png">
+							<div class="mpd-overlay"><!-- 
+								<h2>Pat Care Website</h2> -->
+								<a href="images/tinyone.png" data-lightbox="mpGallery" data-title="Pat Care Website"><span my-font="" class="clickToView"> Full Screen View </span></a><a href="https://drive.google.com/file/d/11lIhUDzEIinqTpp9iXjTomM6zorN_cwQ/view?usp=sharing" target="_blank" class="mpi-download"><i class="fas fa-cloud-download-alt"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+
+	<!---Contact--->
+	<section id="contact" class="fix">
+		<div class="container text-center wow zoomIn">
+			<h2>Get In Touch</h2>
+			<div class="contact-info">
+				<div class="card">
+					<i class="card-icon fa fa-envelope-open" aria-hidden="true"></i>
+					<p>adittyapujon2017@gmail.com</p>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	
+
+	<!------Footer------>
+	<section id="footer" class="fix">
+		<div class="container text-center wow zoomIn">
+			<p>Copyright ©2020 <a href="#top"><span class="color">PUJON DAS</span></a> All Rights Reserved</p>
+		</div>
+	</section>
+
+	
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+	<script type="text/javascript" src="js/particles.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	
+	
+	<script  src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+		<!---
+			$(document).on('click', 'ul li', function(){
+			$(this).addClass('active').siblings().removeClass('active')
+		});
+		-->
+
+// List of sentences
+var _CONTENT = [ "I Make Wesite", "I Make Responsive Website", "I Make PSD To HTML", ];
+
+// Current sentence being processed
+var _PART = 0;
+
+// Character number of the current sentence being processed 
+var _PART_INDEX = 0;
+
+// Holds the handle returned from setInterval
+var _INTERVAL_VAL;
+
+// Element that holds the text
+var _ELEMENT = document.querySelector("#text");
+
+// Implements typing effect
+function Type() { 
+	var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+	_ELEMENT.innerHTML = text;
+	_PART_INDEX++;
+
+	// If full sentence has been displayed then start to delete the sentence after some time
+	if(text === _CONTENT[_PART]) {
+		clearInterval(_INTERVAL_VAL);
+		setTimeout(function() {
+			_INTERVAL_VAL = setInterval(Delete, 50);
+		}, 1000);
+	}
+}
+
+// Implements deleting effect
+function Delete() {
+	var text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+	_ELEMENT.innerHTML = text;
+	_PART_INDEX--;
+
+	// If sentence has been deleted then start to display the next sentence
+	if(text === '') {
+		clearInterval(_INTERVAL_VAL);
+
+		// If last sentence then display the first one, else move to the next
+		if(_PART == (_CONTENT.length - 1))
+			_PART = 0;
+		else
+			_PART++;
+		_PART_INDEX = 0;
+
+		// Start to display the next sentence after some time
+		setTimeout(function() {
+			_INTERVAL_VAL = setInterval(Type, 100);
+		}, 200);
+	}
+}
+
+// Start the typing effect on load
+_INTERVAL_VAL = setInterval(Type, 100);
+
+</script>
+
+</body>
+</html>
